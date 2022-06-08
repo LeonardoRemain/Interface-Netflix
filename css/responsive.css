@@ -1,0 +1,30 @@
+@media screen  and (max-width:700px){
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .botao{
+            margin-top: 5px;
+            width: 190px;
+            margin-bottom: 5px;
+            padding: 1px;
+        }
+
+        .botao i {
+            padding: 2px;
+            margin: 1px;
+        }
+
+        .botoes {
+            display: flex;
+            justify-content: center;
+        }
+}
+
+@media screen and  (min-width: 1000px)  {
+    .descricao {
+        width: 60%;
+    }
+    
+}
